@@ -1,3 +1,4 @@
+// Author Muralidhar SE20UCSE103 
 #include "bits/stdc++.h"
 
 using namespace std;
@@ -75,7 +76,7 @@ int32_t main(){
     int r;
     cin>>r;
     primsMST(r);
-    printf("Total cost:");
+    printf("Total cost:");//Here is the final cost that we obtained on applying primsAlgo
     cout<<cost;
 
 }
